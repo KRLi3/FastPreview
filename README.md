@@ -4,6 +4,8 @@
 >
 > 为 Grasshopper 提供的并行预览网格预热工具，以及一个计算/显示性能分析器。
 
+https://github.com/user-attachments/assets/32ef205a-01a4-41cb-857d-9f8e0ac0a9b4
+
 ---
 
 ## What it does · 功能简介
