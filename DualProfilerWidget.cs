@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -103,7 +103,7 @@ namespace FastPreview
       var font = GH_FontServer.StandardAdjusted;
       var size = g.MeasureString(label, font);
       var pad = 6f;
-      var rect = new RectangleF(8f, 8f, size.Width + 2 * pad, size.Height + 2 * pad);
+      var rect = new RectangleF(8f, 8f, size.Width + (2 * pad), size.Height + (2 * pad));
 
       using (var bg = new SolidBrush(Color.FromArgb(Math.Min(220, alpha + 60), 40, 40, 40)))
       using (var fg = new SolidBrush(Color.FromArgb(Math.Min(255, alpha + 80), 245, 245, 245)))
