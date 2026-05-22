@@ -1,0 +1,16 @@
+# Build output
+bin/
+obj/
+
+# Local editor / IDE config (machine-specific paths)
+.vscode/
+Properties/launchSettings.json
+
+# Rider / Visual Studio
+.vs/
+*.user
+*.suo
+
+# OS junk
+Thumbs.db
+.DS_Store
